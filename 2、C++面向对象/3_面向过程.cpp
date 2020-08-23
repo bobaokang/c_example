@@ -9,8 +9,6 @@ double Yuan::Get_m_r()
 {
     return m_r;
 }
-
-
 double Yuan::Get_m_x0()
 {
     return m_x0;
