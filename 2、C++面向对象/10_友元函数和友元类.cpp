@@ -47,7 +47,7 @@ int B::Get_A()
 int main(int argc, char const *argv[])
 {
     B b1(10);
-    cout<<b1.Get_A()<<endl;
+    cout<<b1.Get_A()<<endl;//可以调用A类的方法
     modityB(&b1,100);
     cout<<b1.Get_A()<<endl;
     B b2(20);
