@@ -71,3 +71,35 @@ int main(int argc, char const *argv[])
     myprintf<char>(array2,size);
     return 0;
 }
+
+
+
+// #include <iostream>
+// #include <stdio.h>
+// #include <string.h>
+// using namespace std;
+// template <typename T>
+// T add(T a,T b)
+// {
+//     return a+b;
+// }
+// template <typename T>
+// T sub(T a,T b)
+// {
+//     return a-b;
+// }
+// template <typename T>
+// T mux(T a,T b)
+// {
+//     return a*b;
+// }
+
+// int main(int argc, char const *argv[])
+// {
+//     printf("%d\n",add<int>(1,2));
+//     printf("%d\n",mux<char>(1,2));
+//     printf("%lf\n",add<float>(1,2));
+//     printf("%d\n",sub<int>(1,2));
+
+//     return 0;
+// }
