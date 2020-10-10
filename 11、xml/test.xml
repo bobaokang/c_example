@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configure>
+<service>
+	<test>this is a123123 test</test>
+</service>
+</configure>
