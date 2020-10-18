@@ -47,6 +47,13 @@ int main(int argc, char const *argv[])
     char buf[]="aabcdefghij";
     inverse(buf);
     printf("buf[%s]\n",buf);
+
+   // buf[]="asdasdkaldasld";
+    
+    char buf1[]="qweqweqweqwe";
+    inverse(buf1);
+    printf("buf[%s]\n",buf1);
+
     return 0;
 }
 //第3种方法  
